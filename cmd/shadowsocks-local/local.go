@@ -27,7 +27,7 @@ var (
 	ErrReqExtraData      = errors.New("socks request get extra data")
 	ErrCmd               = errors.New("socks command not supported")
 	ErrServerInfoIllegal = errors.New("shadowsocks server address illegal or server port illigal")
-	ErrInvalidArguments  = errors.New("arguments illega")
+	ErrInvalidArguments  = errors.New("arguments illegal")
 	ErrInvalidPassword   = errors.New("password illegal")
 	ErrReadUnexpectEOF   = errors.New("unexpect EOF occoured")
 )
